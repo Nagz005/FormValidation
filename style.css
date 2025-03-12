@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*--only for box*/
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+#forum{
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 3px 5px rgb(93, 99, 212);
+    width: 25vw;
+    height: 60vh;
+    min-width: 300px;
+    box-shadow: blueviolet;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+}
+
+#forum .form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+#forum .form-group input{
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+}
+#forum .form-group label{
+    font-size: 20px;
+    color: rgb(26, 9, 131);
+}
+#forum button{
+   height: 35px;
+   background-color: rgb(21, 21, 162);
+   color: white;
+   border-radius: 5px;
+   font-size: 20px;
+}
+#forum .form-group span{
+    color: red;
+    margin-top: 5px;
+}
